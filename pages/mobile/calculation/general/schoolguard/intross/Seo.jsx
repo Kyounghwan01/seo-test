@@ -1,6 +1,6 @@
 import { NextSeo } from "next-seo";
 
-export default function Seo({ title, description, images }) {
+export default function Seo({ title, description, images, width, height }) {
   //   const { title, excerpt, slug, coverImage } = post;
   return (
     <>
@@ -26,8 +26,8 @@ export default function Seo({ title, description, images }) {
           site_name: "carrotins.com",
         }}
       /> */}
-      <NextSeo
-        title={"awdawdawdawdawda"}
+      {/* <NextSeo
+        title={"디폴트ㅌ"}
         description={"zxczxczxczxczxczxcz"}
         openGraph={{
           type: "website",
@@ -41,6 +41,28 @@ export default function Seo({ title, description, images }) {
               url: "https://www.carrotins.com/static/images/calculation/contents/overseas/seo.jpg",
               width: 800,
               height: 600,
+              alt: "hero image for ",
+            },
+          ],
+          //   이 두놈
+          site_name: "carrotins.com",
+        }}
+      /> */}
+      <NextSeo
+        title={title}
+        description={description}
+        openGraph={{
+          type: "website",
+          //   이 두놈
+          url: "https://myawesomewebsite.com",
+          title: title,
+          description: description,
+          locale: "en_EN",
+          images: [
+            {
+              url: images,
+              width: width,
+              height: height,
               alt: "hero image for ",
             },
           ],

@@ -9,6 +9,8 @@ function Index() {
         title={"타이틀입니다"}
         description={"디스크립션입니다."}
         images="https://www.carrotins.com/static/images/calculation/contents/overseas/seo.jpg"
+        width={700}
+        height={600}
       />
 
       <div>12312323</div>
