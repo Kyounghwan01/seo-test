@@ -12,7 +12,7 @@ export default function Seo() {
           type: "website",
           url: "https://myawesomewebsite.com",
           title: ` | originally posted on myawesomewebsite.com`,
-          description: excerpt,
+          description: "awdawda",
           locale: "en_EN",
           images: [
             {
