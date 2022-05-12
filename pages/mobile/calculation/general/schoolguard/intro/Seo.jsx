@@ -20,7 +20,7 @@ export default function Seo({ title, description, images }) {
               url: images,
               width: 800,
               height: 600,
-              alt: `hero image for `,
+              alt: "이미지",
             },
           ],
           //   이 두놈
