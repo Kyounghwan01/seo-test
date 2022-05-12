@@ -39,7 +39,7 @@ export async function getServerSideProps() {
   </>;
 
   // Pass data to the page via props
-  return { props: { data } };
+  return { props: { data: "" } };
 }
 
 export default Index;
