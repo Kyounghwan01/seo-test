@@ -16,7 +16,7 @@ export default function Seo() {
           locale: "en_EN",
           images: [
             {
-              url: "https://cdn.carrotins.com/static/images/common/nav_sub01_img.png",
+              url: "https://www.carrotins.com/static/images/calculation/contents/overseas/seo.jpg",
               width: 800,
               height: 600,
               alt: `hero image for `,
