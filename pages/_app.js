@@ -11,7 +11,7 @@ const DEFAULT_SEO = {
     type: "website",
     locale: "ko_KR",
     url: "https://www.carrotins.com",
-    title: "보험의 새로운 기준 캐롯손해보험",
+    title: "test 보험의 새로운 기준 캐롯손해보험",
     site_name: "캐롯손해보험",
     images: [
       {
