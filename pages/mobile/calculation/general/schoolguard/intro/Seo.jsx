@@ -11,7 +11,7 @@ export default function Seo({ title, description, images }) {
         openGraph={{
           type: "website",
           //   이 두놈
-          url: "https://myawesomewebsite.com",
+          url: "https://carrotins.com",
           title: title,
           description: description,
           locale: "en_EN",
