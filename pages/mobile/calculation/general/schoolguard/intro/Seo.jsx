@@ -5,24 +5,24 @@ export default function Seo({ title, description, images }) {
   return (
     <>
       <NextSeo
-        title={"titles"}
-        description={"expect"}
-        canonical={`https://carrotins.com`}
+        title={title}
+        description={description}
+        canonical="https://carrotins.com"
         openGraph={{
           type: "website",
-          url: "https://myawesomewebsite.com",
+          url: "https://carrotins.com",
           title: title,
           description: description,
-          locale: "en_EN",
+          locale: "ko-KR",
           images: [
             {
               url: images,
               width: 800,
               height: 600,
-              alt: `hero image for `,
+              alt: `이미지`,
             },
           ],
-          site_name: "myawesomewebsite.com",
+          site_name: "https://carrotins.com",
         }}
       />
     </>
