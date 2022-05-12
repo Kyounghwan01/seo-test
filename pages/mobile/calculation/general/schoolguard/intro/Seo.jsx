@@ -10,7 +10,7 @@ export default function Seo({ title, description, images }) {
         canonical="https://carrotins.com"
         openGraph={{
           type: "website",
-          url: "https://myawesomewebsite.com",
+          url: "https://carrotins.com",
           title: title,
           description: description,
           locale: "en_EN",
@@ -22,7 +22,7 @@ export default function Seo({ title, description, images }) {
               alt: `hero image for `,
             },
           ],
-          site_name: "myawesomewebsite.com",
+          site_name: "https://carrotins.com",
         }}
       />
     </>
