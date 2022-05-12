@@ -18,7 +18,7 @@ export default function Seo({ title, description, images }) {
               url: images,
               width: 800,
               height: 600,
-              alt: "seo 이미지",
+              alt: `hero image for `,
             },
           ],
         }}
