@@ -5,6 +5,8 @@ export default function Seo({ title, description, images }) {
   return (
     <>
       <NextSeo
+        title={title}
+        description={description}
         openGraph={{
           type: "website",
           //   이 두놈
