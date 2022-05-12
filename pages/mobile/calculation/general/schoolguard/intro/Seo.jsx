@@ -5,9 +5,6 @@ export default function Seo({ title, description, images }) {
   return (
     <>
       <NextSeo
-        title={"title"}
-        description={"description"}
-        canonical="https://carrotins.com"
         openGraph={{
           type: "website",
           //   이 두놈
@@ -20,7 +17,7 @@ export default function Seo({ title, description, images }) {
               url: images,
               width: 800,
               height: 600,
-              alt: "이미지",
+              alt: "hero image for ",
             },
           ],
           //   이 두놈
