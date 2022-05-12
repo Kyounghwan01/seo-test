@@ -3,7 +3,7 @@ import App from "next/app";
 import "../styles/globals.css";
 
 const DEFAULT_SEO = {
-  title: "보adwawd험의 새로운 기준 캐롯손해보험",
+  title: "하하하하 새로운 기준 캐롯손해보험",
   description:
     "캐롯손해보험 공식 홈페이지, 퍼마일 자동차보험, 운전자보험, 해외여행보험 등 편리한 보험 계산, 가입",
   canonical: "https://www.carrotins.com",
