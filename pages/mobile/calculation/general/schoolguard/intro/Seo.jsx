@@ -1,16 +1,14 @@
 import { NextSeo } from "next-seo";
 
 export default function Seo({ title, description, images }) {
-  //   const { title, excerpt, slug, coverImage } = post;
   return (
     <>
       <NextSeo
-        title={"title"}
-        description={"description"}
+        title={title}
+        description={description}
         canonical="https://carrotins.com"
         openGraph={{
           type: "website",
-          //   이 두놈
           url: "https://carrotins.com",
           title: title,
           description: description,
@@ -23,7 +21,6 @@ export default function Seo({ title, description, images }) {
               alt: "이미지",
             },
           ],
-          //   이 두놈
           site_name: "carrotins.com",
         }}
       />
