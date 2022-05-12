@@ -22,7 +22,7 @@ export default function Seo({ title, description, images }) {
               alt: `hero image for `,
             },
           ],
-          site_name: "https://carrotins.com",
+          site_name: "carrotins.com",
         }}
       />
     </>
