@@ -5,7 +5,11 @@ import Seo from "./Seo";
 function Index() {
   return (
     <>
-      <Seo />
+      <Seo
+        title={"타이틀입니다"}
+        description={"디스크립션입니다."}
+        images="https://www.carrotins.com/static/images/calculation/contents/overseas/seo.jpg"
+      />
 
       <div>12312323</div>
     </>
