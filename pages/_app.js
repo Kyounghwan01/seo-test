@@ -30,6 +30,7 @@ class MyApp extends App {
     return (
       <>
         <DefaultSeo {...DEFAULT_SEO} />
+        {process.env.NODE_ENV}
         <Component {...pageProps} />
       </>
     );
